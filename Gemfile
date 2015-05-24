@@ -18,8 +18,14 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'angular-rails-templates'
 gem 'bower-rails'
 
+# Add bootstrap
+gem 'bootstrap-sass', '~> 3.3.0'
+
 # For turning active models into json hashes
 gem 'active_model_serializers'
+
+# for debugging
+gem 'pry'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -34,6 +40,7 @@ gem 'spring',        group: :development
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.1.0'
+  gem 'jasmine-rails'
 end
 
 group :test do
